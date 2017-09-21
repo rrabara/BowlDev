@@ -5,4 +5,48 @@
     <string name="title_coach">Coach</string>
     <string name="title_share">Share</string>
     <string name="title_profile">Profile</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="new_account">CREATE NEW ACCOUNT</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="popup_header">More Information</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="ptitle_mph">MPH</string>
+    <string name="ptitle_rpm">RPM</string>
+    <string name="ptitle_axis_rotation">Axis Rotation</string>
+    <string name="ptitle_axis_tilt">Axis Tilt</string>
+    <string name="ptitle_swing_tempo">Swing Tempo</string>
+    <string name="ptitle_swing_plane">Swing Plane</string>
+    <string name="def_mph">
+        <p>
+            MPH (Miles Per Hour): The speed at which the bowling ball travels.
+        </p>
+    </string>
+    <string name="def_rpm">
+        <p>
+            RPM (Revolutions Per Minute): The number of times the bowling ball
+            makes a full rotation on its axis in a minute.
+        </p>
+    </string>
+    <string name="def_axis_rotation">
+        <p>
+            Axis of Rotation: The
+        </p>
+    </string>
+    <string name="def_axis_tilt">
+        <p>
+            Axis Tilt:
+        </p>
+    </string>
+    <string name="def_swing_tempo">
+        <p>
+            Swing Tempo:
+        </p>
+    </string>
+    <string name="def_swing_plane">
+        <p>
+            Swing Plane:
+        </p>
+    </string>
 </resources>

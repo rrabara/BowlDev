@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class FragmentShare extends Fragment {
+    private final String TAG = "FragmentShare";
+
     public static FragmentShare newInstance() {
         FragmentShare fragShare = new FragmentShare();
         return fragShare;

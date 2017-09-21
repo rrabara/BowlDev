@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/grid_item_images"
         android:textAlignment="center"
-        android:textSize="15dp"
+        android:textSize="@dimen/gridview_item_text"
         android:textStyle="bold"/>
 
 

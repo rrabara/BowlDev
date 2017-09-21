@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class Fragment3D extends Fragment {
+    private final String TAG = "Fragment3D";
+
     public static Fragment3D newInstance() {
         Fragment3D frag3D = new Fragment3D();
         return frag3D;

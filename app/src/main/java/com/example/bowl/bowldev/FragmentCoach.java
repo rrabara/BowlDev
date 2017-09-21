@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class FragmentCoach extends Fragment {
+    private final String TAG = "FragmentCoach";
+
     public static FragmentCoach newInstance() {
         FragmentCoach fragCoach = new FragmentCoach();
         return fragCoach;
