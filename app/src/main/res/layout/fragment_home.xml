@@ -12,13 +12,61 @@
         android:layout_centerHorizontal="true"
         android:src="@mipmap/ic_launcher_round"/>
 
-    <TextView
-        android:id="@+id/averageMPH"
+    <!--<TextView
+        android:id="@+id/avgMPH"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/image_home"
-        android:text="Hello"
-        android:textSize="15sp"/>
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/avgRPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/avgMPH"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/avgAxis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/avgRPM"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/avgTilt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/avgAxis"
+        android:textSize="10sp"/>
+
+
+    <TextView
+        android:id="@+id/avgSwingTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/avgTilt"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/avgSwingPlane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/avgSwingTempo"
+        android:textSize="10sp"/>-->
+
+    <GridView
+        android:id="@+id/statgrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_home"
+        android:layout_marginTop="10dp"
+        android:numColumns="2"/>
 
 </RelativeLayout>
